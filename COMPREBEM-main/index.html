@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CompreBem Supermercado</title>
+    <link id="favicon" rel="icon" href="https://i.ibb.co/DR43g2T/logo.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Archivo&family=Arimo&family=Asap&family=Barlow&family=Bebas+Neue&family=BioRhyme&family=Bitter&family=Cabin&family=Chivo&family=Comfortaa&family=Concert+One&family=Cormorant+Garamond&family=Crimson+Text&family=DM+Sans&family=Dancing+Script&family=Domine&family=Dosis&family=Eczar&family=Exo+2&family=Faustina&family=Fira+Sans&family=Fjalla+One&family=Frank+Ruhl+Libre&family=Heebo&family=Hind&family=IBM+Plex+Sans&family=Inconsolata&family=Indie+Flower&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&family=Josefin+Sans&family=Jura&family=Kanit&family=Karla&family=Lato:wght@400;700&family=Libre+Baskerville&family=Libre+Franklin&family=Lora&family=Manrope&family=Martel+Sans&family=Maven+Pro&family=Merriweather&family=Merriweather+Sans&family=Monda&family=Montserrat:wght@400;500;600;700&family=Mukta&family=Mulish&family=Nanum+Gothic&family=Noto+Sans&family=Noto+Serif&family=Nunito&family=Nunito+Sans&family=Old+Standard+TT&family=Open+Sans:wght@400;600;700&family=Oswald&family=Overpass&family=Oxygen&family=PT+Sans&family=PT+Serif&family=Pacifico&family=Pathway+Gothic+One&family=Play&family=Playfair+Display&family=Poppins&family=Prompt&family=Quantico&family=Quicksand&family=Rajdhani&family=Rakkas&family=Raleway&family=Red+Hat+Display&family=Righteous&family=Roboto+Condensed&family=Roboto+Mono&family=Roboto+Slab&family=Roboto:wght@400;500;700&family=Ropa+Sans&family=Rubik&family=Rubik+Mono+One&family=Ruda&family=Sarabun&family=Shadows+Into+Light&family=Signika&family=Slabo+27px&family=Source+Code+Pro&family=Source+Sans+Pro&family=Space+Mono&family=Spectral&family=Taviraj&family=Teko&family=Tinos&family=Titillium+Web&family=Trirong&family=Ubuntu&family=Varela+Round&family=Vesper+Libre&family=Vollkorn&family=Work+Sans&family=Yantramanav&family=Yrsa&family=Zilla+Slab&display=swap');
+      :root {
+        /* Brand Colors */
+        --color-primary: #f46d25; /* Atacadão Orange */
+        --color-secondary: #00a651; /* Atacadão Green */
+        
+        /* Layout Colors */
+        --color-header-bg: #2c2a29;
+        --color-header-text: #ffffff;
+        --color-footer-bg: #2c2a29;
+        --color-footer-text: #ffffff;
+        --color-background: #f7f8fa; /* Light Gray */
+        --color-card-bg: #ffffff;
+
+        /* Text Colors */
+        --color-text-primary: #1a1a1a; /* Darker Gray for main text */
+        --color-text-secondary: #666666; /* Medium Gray */
+        --color-text-light: #999999; /* Light Gray for hints */
+
+        /* UI Elements */
+        --color-border: #e5e7eb; /* border-gray-200 */
+        --button-radius: 8px;
+        --card-shadow: 0 4px 12px rgb(0 0 0 / 0.08);
+        --card-shadow-hover: 0 8px 24px rgb(0 0 0 / 0.12);
+        --header-bg-image: none;
+
+        /* Typography */
+        --font-family-body: 'Inter', sans-serif;
+      }
+      body {
+        font-family: var(--font-family-body);
+        background-color: var(--color-background);
+        color: var(--color-text-primary);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .scrollbar-hide::-webkit-scrollbar { display: none; }
+      .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+      /* Dark Mode Styles */
+      html.dark {
+        --color-background: #0d1117;
+        --color-card-bg: #161b22;
+        --color-header-bg: #161b22;
+        --color-footer-bg: #161b22;
+        --color-text-primary: #c9d1d9;
+        --color-text-secondary: #8b949e;
+        --color-text-light: #484f58;
+        --color-border: #30363d;
+      }
+       html.dark .bg-white { background-color: var(--color-card-bg); }
+       html.dark .bg-gray-50 { background-color: #0d1117; }
+       html.dark .bg-gray-100 { background-color: #161b22; }
+       html.dark .bg-gray-200 { background-color: #30363d; }
+       html.dark .text-gray-800 { color: var(--color-text-primary); }
+       html.dark .text-gray-700 { color: #b1bac4; }
+       html.dark .text-gray-600 { color: var(--color-text-secondary); }
+       html.dark .text-gray-500 { color: #6e7681; }
+       html.dark .text-gray-900 { color: #f0f6fc; }
+       html.dark .border, html.dark .border-b, html.dark .border-t, html.dark .border-gray-200 { border-color: var(--color-border); }
+       html.dark .hover\:bg-gray-50:hover { background-color: #1c2128; }
+       html.dark a { color: #58a6ff; }
+       html.dark a:hover { color: #80bfff; }
+       html.dark .shadow-md { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.2), 0 2px 4px -2px rgb(0 0 0 / 0.15); }
+
+      /* Image Zoom styles */
+      @media (min-width: 1024px) {
+          .image-zoom-container .image-zoom-result {
+              position: absolute;
+              border: 1px solid var(--color-border);
+              width: 150%;
+              height: 150%;
+              top: 0;
+              left: 102%;
+              background-repeat: no-repeat;
+              z-index: 20;
+              pointer-events: none;
+              opacity: 0;
+              visibility: hidden;
+              transition: opacity 0.2s, visibility 0.2s;
+              box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+              background-color: var(--color-card-bg);
+              border-radius: 0.5rem;
+          }
+          .image-zoom-container:hover .image-zoom-result {
+              opacity: 1;
+              visibility: visible;
+          }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "uuid": "https://aistudiocdn.com/uuid@^13.0.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.21.0",
+    "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.45.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="custom-code-injector"></div>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

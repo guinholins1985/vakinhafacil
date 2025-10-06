@@ -1,0 +1,269 @@
+{
+  "siteIdentity": {
+    "logoUrl": "https://atacadao.com.br/costco/images/logo-comprebem.svg",
+    "logoHeight": 40,
+    "logoCentered": false,
+    "logoEffect": "none",
+    "faviconUrl": "https://atacadao.com.br/costco/images/favicon.ico"
+  },
+  "theme": {
+    "primary": "#004f9e",
+    "secondary": "#249f49",
+    "header-bg": "#2c2a29",
+    "header-text": "#ffffff",
+    "footer-bg": "#333333",
+    "footer-text": "#FFFFFF"
+  },
+  "typography": {
+    "baseSize": 16,
+    "fontFamily": "'Inter', sans-serif"
+  },
+  "categories": [
+    { "id": "cat-1", "name": "Mercearia", "url": "#" },
+    { "id": "cat-2", "name": "Bebidas", "url": "#" },
+    { "id": "cat-3", "name": "Limpeza", "url": "#" },
+    { "id": "cat-4", "name": "Hortifruti", "url": "#" },
+    { "id": "cat-5", "name": "Carnes", "url": "#" }
+  ],
+  "banners": [
+    { "id": 1, "imageUrl": "https://atacadao.com.br/costco/images/banners/banner1.png", "altText": "Ofertas da Semana", "link": "#", "isActive": true, "title": "Ofertas da Semana", "subtitle": "Produtos com até 40% de desconto!", "buttonText": "Conferir", "position": "hero", "textColor": "#FFFFFF" },
+    { "id": 2, "imageUrl": "https://atacadao.com.br/costco/images/banners/banner2.png", "altText": "Especial Hortifruti", "link": "#", "isActive": true, "title": "Especial Hortifruti", "subtitle": "Frutas e verduras frescas todos os dias.", "buttonText": "Ver mais", "position": "hero", "textColor": "#FFFFFF" },
+    { "id": 3, "imageUrl": "https://atacadao.com.br/costco/images/banners/banner3.png", "altText": "Festival de Carnes", "link": "#", "isActive": false, "title": "Festival de Carnes", "position": "hero" }
+  ],
+  "promos": [
+    { "id": 1, "title": "Até 20% OFF", "subtitle": "Mercearia", "imageUrl": "https://atacadao.com.br/costco/images/promos/cat1.png" },
+    { "id": 2, "title": "Leve 3 Pague 2", "subtitle": "Bebidas", "imageUrl": "https://atacadao.com.br/costco/images/promos/cat2.png" },
+    { "id": 3, "title": "Tudo para a casa", "subtitle": "Limpeza", "imageUrl": "https://atacadao.com.br/costco/images/promos/cat3.png" },
+    { "id": 4, "title": "Direto da Horta", "subtitle": "Hortifruti", "imageUrl": "https://atacadao.com.br/costco/images/promos/cat4.png" },
+    { "id": 5, "title": "Qualidade", "subtitle": "Açougue", "imageUrl": "https://atacadao.com.br/costco/images/promos/cat5.png" },
+    { "id": 6, "title": "Fresquinhos", "subtitle": "Padaria", "imageUrl": "https://atacadao.com.br/costco/images/promos/cat6.png" }
+  ],
+  "homePage": {
+    "categoryPromoTitle": "Explore Nossas Categorias"
+  },
+  "productSections": [
+    { "id": "ofertas", "title": "🔥 Ofertas da Semana", "products": [
+      { "id": 1, "code": "PA-001", "name": "Arroz Agulhinha Tipo 1 Camil 5kg", "description": "O Arroz Agulhinha Tipo 1 da Camil é selecionado eletronicamente e não precisa ser lavado. Perfeito para o dia a dia, fica sempre soltinho e saboroso.", "imageUrls": ["https://atacadao.com.br/costco/images/products/arroz.png", "https://atacadao.com.br/costco/images/products/arroz-2.png"], "price": 25.99, "originalPrice": 28.50, "stock": 150, "tags": ["arroz", "camil", "agulhinha", "cesta básica"], "specifications": { "Tipo": "Agulhinha Tipo 1", "Marca": "Camil", "Peso": "5kg" } },
+      { "id": 2, "code": "PA-002", "name": "Feijão Carioca Tipo 1 Kicaldo 1kg", "description": "Feijão Carioca Kicaldo, grãos selecionados para um caldo encorpado e saboroso. Ideal para feijoadas e o trivial do dia a dia.", "imageUrls": ["https://atacadao.com.br/costco/images/products/feijao.png"], "price": 8.79, "stock": 200, "tags": ["feijão", "kicaldo", "carioca", "cesta básica"], "specifications": { "Tipo": "Carioca Tipo 1", "Marca": "Kicaldo", "Peso": "1kg" } },
+      { "id": 3, "code": "PA-003", "name": "Óleo de Soja Soya 900ml", "description": "Óleo de soja Soya, perfeito para refogar, fritar e preparar suas receitas favoritas. Fonte de vitamina E.", "imageUrls": ["https://atacadao.com.br/costco/images/products/oleo.png"], "price": 5.49, "stock": 300, "tags": ["óleo", "soja", "soya"], "specifications": { "Tipo": "Óleo de Soja", "Marca": "Soya", "Volume": "900ml" } },
+      { "id": 4, "code": "PA-004", "name": "Café Torrado e Moído Pilão 500g", "description": "O café que o Brasil prefere, com sabor forte e aroma marcante. Pilão, o café forte do Brasil.", "imageUrls": ["https://atacadao.com.br/costco/images/products/cafe.png"], "price": 18.90, "stock": 80, "tags": ["café", "pilão", "torrado", "moído"], "specifications": { "Tipo": "Torrado e Moído", "Marca": "Pilão", "Peso": "500g" } },
+      { "id": 5, "code": "PA-005", "name": "Leite Condensado Moça 395g", "description": "O tradicional Leite Moça da Nestlé, perfeito para suas sobremesas. Consistência e sabor inconfundíveis.", "imageUrls": ["https://atacadao.com.br/costco/images/products/leite-condensado.png"], "price": 6.99, "originalPrice": 7.50, "stock": 120, "tags": ["leite condensado", "moça", "nestlé", "sobremesa"], "specifications": { "Tipo": "Leite Condensado", "Marca": "Nestlé", "Peso": "395g" } }
+    ]},
+    { "id": "basicos", "title": "Essenciais da Cesta Básica", "products": [
+      { "id": 1, "code": "PA-001", "name": "Arroz Agulhinha Tipo 1 Camil 5kg", "description": "O Arroz Agulhinha Tipo 1 da Camil é selecionado eletronicamente e não precisa ser lavado. Perfeito para o dia a dia, fica sempre soltinho e saboroso.", "imageUrls": ["https://atacadao.com.br/costco/images/products/arroz.png", "https://atacadao.com.br/costco/images/products/arroz-2.png"], "price": 25.99, "originalPrice": 28.50, "stock": 150, "tags": ["arroz", "camil", "agulhinha", "cesta básica"], "specifications": { "Tipo": "Agulhinha Tipo 1", "Marca": "Camil", "Peso": "5kg" } },
+      { "id": 2, "code": "PA-002", "name": "Feijão Carioca Tipo 1 Kicaldo 1kg", "description": "Feijão Carioca Kicaldo, grãos selecionados para um caldo encorpado e saboroso. Ideal para feijoadas e o trivial do dia a dia.", "imageUrls": ["https://atacadao.com.br/costco/images/products/feijao.png"], "price": 8.79, "stock": 200, "tags": ["feijão", "kicaldo", "carioca", "cesta básica"], "specifications": { "Tipo": "Carioca Tipo 1", "Marca": "Kicaldo", "Peso": "1kg" } },
+      { "id": 3, "code": "PA-003", "name": "Óleo de Soja Soya 900ml", "description": "Óleo de soja Soya, perfeito para refogar, fritar e preparar suas receitas favoritas. Fonte de vitamina E.", "imageUrls": ["https://atacadao.com.br/costco/images/products/oleo.png"], "price": 5.49, "stock": 300, "tags": ["óleo", "soja", "soya"], "specifications": { "Tipo": "Óleo de Soja", "Marca": "Soya", "Volume": "900ml" } }
+    ]},
+    { "id": "limpeza", "title": "Limpeza para sua Casa", "products": [
+      { "id": 7, "code": "PA-007", "name": "Sabão em Pó OMO Lavagem Perfeita 1.6kg", "description": "OMO Lavagem Perfeita remove as manchas mais difíceis até no ciclo rápido e cuida das cores.", "imageUrls": ["https://atacadao.com.br/costco/images/products/sabao-po.png"], "price": 22.50, "stock": 95, "tags": ["sabão em pó", "omo", "limpeza", "lavanderia"], "specifications": { "Marca": "OMO", "Peso": "1.6kg" } }
+    ]},
+    {
+      "id": "novidades",
+      "title": "Novidades para Cadastrar",
+      "products": [
+        {
+          "id": 8,
+          "code": "PB-001",
+          "name": "Detergente Líquido Ypê Clear 500ml",
+          "description": "",
+          "imageUrls": ["https://via.placeholder.com/200x200.png?text=Gerar+Imagem"],
+          "price": 2.19,
+          "stock": 500,
+          "tags": [],
+          "specifications": { "Marca": "Ypê", "Volume": "500ml" }
+        },
+        {
+          "id": 9,
+          "code": "PB-002",
+          "name": "Amaciante Downy Concentrado Brisa de Verão 500ml",
+          "description": "Deixa suas roupas macias e com perfume duradouro.",
+          "imageUrls": ["https://via.placeholder.com/200x200.png?text=Gerar+Imagem"],
+          "price": 15.99,
+          "stock": 250,
+          "tags": ["amaciante", "downy", "roupa"],
+          "specifications": { "Marca": "Downy", "Volume": "500ml" }
+        },
+        {
+          "id": 10,
+          "code": "PB-003",
+          "name": "Esponja de Aço Bombril",
+          "description": "",
+          "imageUrls": ["https://via.placeholder.com/200x200.png?text=Gerar+Imagem"],
+          "price": 1.99,
+          "stock": 1000,
+          "tags": ["esponja", "bombril", "limpeza"],
+          "specifications": { "Marca": "Bombril" }
+        }
+      ]
+    }
+  ],
+  "brands": [
+    { "id": 1, "name": "Camil", "logoUrl": "https://atacadao.com.br/costco/images/brands/camil.png" },
+    { "id": 2, "name": "Kicaldo", "logoUrl": "https://atacadao.com.br/costco/images/brands/kicaldo.png" },
+    { "id": 3, "name": "Soya", "logoUrl": "https://atacadao.com.br/costco/images/brands/soya.png" },
+    { "id": 4, "name": "Pilão", "logoUrl": "https://atacadao.com.br/costco/images/brands/pilao.png" },
+    { "id": 5, "name": "Nestlé", "logoUrl": "https://atacadao.com.br/costco/images/brands/nestle.png" },
+    { "id": 6, "name": "Coca-Cola", "logoUrl": "https://atacadao.com.br/costco/images/brands/coca-cola.png" }
+  ],
+  "footerSettings": {
+    "sections": [
+      { "id": "inst", "title": "Institucional", "links": [{ "id": "l1", "text": "Sobre Nós", "url": "#" }, { "id": "l2", "text": "Trabalhe Conosco", "url": "#" }] },
+      { "id": "ajuda", "title": "Ajuda", "links": [{ "id": "l3", "text": "Central de Atendimento", "url": "#" }, { "id": "l4", "text": "Políticas de Privacidade", "url": "#" }] }
+    ],
+    "paymentMethods": [
+        { "id": "visa", "name": "Visa", "enabled": true, "iconUrl": "https://atacadao.com.br/costco/images/payments/visa.svg" },
+        { "id": "mastercard", "name": "Mastercard", "enabled": true, "iconUrl": "https://atacadao.com.br/costco/images/payments/mastercard.svg" },
+        { "id": "pix", "name": "Pix", "enabled": true, "iconUrl": "https://atacadao.com.br/costco/images/payments/pix.svg" },
+        { "id": "amex", "name": "American Express", "enabled": false, "iconUrl": "https://atacadao.com.br/costco/images/payments/amex.svg" }
+    ],
+    "socialLinks": { "facebook": "#", "instagram": "#", "twitter": "#", "youtube": "#", "linkedin": "#" },
+    "bottomText": ["Racismo é crime. Denuncie. ", "CompreBem Comércio de Alimentos Ltda. CNPJ: 12.345.678/0001-99. Endereço: Av. Exemplo, 123, São Paulo, SP"]
+  },
+  "currentUser": null,
+  "cart": [],
+  "users": [],
+  "orders": [],
+  "customCode": "<style>\\n/* Seu CSS customizado aqui */\\n</style>\\n<!-- Seu HTML customizado aqui -->",
+  "sellers": [],
+  "disputes": [],
+  "sellerPayouts": [],
+  "commissionRules": [],
+  "integrations": [],
+  "paymentGateways": [],
+  "securitySettings": { "is2FAEnabled": true, "fraudDetectionLevel": "médio", "dataRetentionDays": 365 },
+  "subscriptions": [],
+  "deliveryRoutes": [],
+  "warehouses": [],
+  "vehicles": [],
+  "invoices": [],
+  "expenses": [],
+  "quotes": [],
+  "abandonedCarts": [],
+  "salesReps": [],
+  "missions": [],
+  "socialPosts": [],
+  "campaigns": [],
+  "affiliates": [],
+  "insights": [],
+  "tasks": [],
+  "teamMembers": [],
+  "events": [],
+  "articles": [],
+  "arEnabledProductIds": [],
+  "blockchainTraces": [],
+  "voiceCommerceConfig": { "isEnabled": false, "invocationPhrase": "Ok CompreBem" },
+  "vrShowroomConfig": { "isEnabled": false, "theme": "Moderno", "featuredProductIds": [] },
+  "iotDevices": [],
+  "supportTickets": [],
+  "faqs": [],
+  "trainingModules": [],
+  "productCarbonFootprints": [],
+  "packagingLogs": [],
+  "sustainableIncentives": [],
+  "swotItems": [],
+  "marketAnalyses": [],
+  "expansionScenarios": [],
+  "franchiseUnits": [],
+  "dueDiligenceReports": [],
+  "abTests": [],
+  "employeeIdeas": [],
+  "startupPartnerships": [],
+  "trendReports": [],
+  "patents": [],
+  "employeeSurveys": [],
+  "onboardingTasks": [],
+  "benefits": [],
+  "pdIs": [],
+  "strategicPartners": [],
+  "adminProfile": { "name": "Admin", "email": "admin@comprebem.com", "avatarUrl": "https://i.pravatar.cc/150?u=admin", "enable2FA": true, "notificationSettings": { "newOrders": true, "supportTickets": true, "weeklyReports": false } },
+  "loginPageConfig": { "backgroundType": "color", "backgroundColor": "#f3f4f6", "backgroundGradient": "linear-gradient(to right, #4facfe, #00f2fe)", "backgroundImageUrl": "", "logoUrl": "https://atacadao.com.br/costco/images/logo-comprebem.svg", "welcomeTitle": "Bem-vindo ao Painel", "welcomeSubtitle": "Faça login para continuar", "layout": "centered", "enableGoogleLogin": true, "enableFacebookLogin": false },
+  "affiliateLinks": [],
+  "adsenseConfig": { "isEnabled": false, "publisherId": "", "slotId": "" },
+  "contracts": [],
+  "licenses": [],
+  "complianceAudits": [],
+  "languageSettings": [],
+  "currencySettings": [],
+  "regionalContents": [],
+  "internationalShipments": [],
+  "nfes": [],
+  "fiscalConfig": { "companyName": "CompreBem Comércio", "cnpj": "12.345.678/0001-99", "ie": "123.456.789.110", "taxRegime": "Lucro Presumido", "digitalCertificateExpiry": "2025-06-15" },
+  "cyberAttackSimulations": [],
+  "fraudAnalysisLogs": [],
+  "antiFraudRules": [],
+  "suppliers": [],
+  "purchaseOrders": [],
+  "demandForecasts": [],
+  "stockOptimizations": [],
+  "externalIntegrations": [
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "category": "Database",
+      "description": "Plataforma de backend como serviço, alternativa ao Firebase.",
+      "enabled": false,
+      "credentials": {
+        "projectUrl": "",
+        "anonKey": ""
+      },
+      "requiredFields": [
+        { "key": "projectUrl", "label": "Project URL", "type": "text" },
+        { "key": "anonKey", "label": "Anon (Public) Key", "type": "password" }
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "category": "AI",
+      "description": "API para acessar modelos de linguagem como GPT.",
+      "enabled": false,
+      "credentials": {
+        "apiKey": ""
+      },
+      "requiredFields": [
+        { "key": "apiKey", "label": "API Key", "type": "password" }
+      ]
+    },
+    {
+      "id": "google_maps",
+      "name": "Google Maps",
+      "category": "Public APIs",
+      "description": "APIs de mapas, rotas e geolocalização.",
+      "enabled": false,
+      "credentials": {
+        "apiKey": ""
+      },
+      "requiredFields": [
+        { "key": "apiKey", "label": "API Key", "type": "password" }
+      ]
+    },
+    {
+      "id": "aws_s3",
+      "name": "Amazon S3",
+      "category": "Cloud Storage",
+      "description": "Serviço de armazenamento de objetos na nuvem da AWS.",
+      "enabled": false,
+      "credentials": {
+        "accessKeyId": "",
+        "secretAccessKey": "",
+        "bucketName": ""
+      },
+      "requiredFields": [
+        { "key": "accessKeyId", "label": "Access Key ID", "type": "text" },
+        { "key": "secretAccessKey", "label": "Secret Access Key", "type": "password" },
+        { "key": "bucketName", "label": "Bucket Name", "type": "text" }
+      ]
+    }
+  ],
+  "aiModels": [
+    { "id": "1", "fullName": "openai/gpt-oss-20b:free", "provider": "openai", "type": "Text", "status": "Untested", "enabled": true },
+    { "id": "2", "fullName": "google/gemini-2.0-flash-exp:free", "provider": "google", "type": "Text", "status": "Untested", "enabled": true },
+    { "id": "3", "fullName": "google/gemma-3-27b-it:free", "provider": "google", "type": "Text", "status": "Untested", "enabled": true },
+    { "id": "4", "fullName": "z-ai/glm-4.5-air:free", "provider": "z-ai", "type": "Text", "status": "Untested", "enabled": true },
+    { "id": "5", "fullName": "qwen/qwen3-coder:free", "provider": "qwen", "type": "Text", "status": "Untested", "enabled": true },
+    { "id": "6", "fullName": "meta-llama/llama-3.3-70b-instruct:free", "provider": "meta-llama", "type": "Text", "status": "Untested", "enabled": true },
+    { "id": "7", "fullName": "mistralai/mistral-small-3.2-24b-instruct:free", "provider": "mistralai", "type": "Text", "status": "Untested", "enabled": true },
+    { "id": "8", "fullName": "google/gemma-3-4b-it:free", "provider": "google", "type": "Text", "status": "Untested", "enabled": true }
+  ],
+  "supplierIntegrations": []
+}
